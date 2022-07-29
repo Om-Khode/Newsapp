@@ -4,9 +4,11 @@
 }
 
 .navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
     display: flex;
     background-color:  #064662;
-    /* height: 50px; */
     font-size: 23px;
     color: #ffeaea;
     align-items: center;

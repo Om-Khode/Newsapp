@@ -19,6 +19,7 @@ img{
 }
 
 .card{
+    
     background-color: #064662;
     width: 300px;
     height: fit-content;
@@ -48,19 +49,42 @@ img{
     font-size: 16px;
     margin-bottom: 6px;
     color:#f7f9fa;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-height: 1.5em;        /* fallback */
+    min-height: 3em;       /* fallback */
  }
 
 .desc{
     font-size: 14px;
     margin-bottom: 8px;
     color: #c9ebc4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    line-height: 1.5em;        /* fallback */
+    min-height: 7.5em;       /* fallback */
+    
 }
 
 .author{
     color: #92b8ca;
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-style: italic;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-height: 1.5em;        /* fallback */
+    min-height: 1.5em;       /* fallback */
 }
 
 button{
