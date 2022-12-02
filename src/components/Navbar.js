@@ -16,9 +16,6 @@ function Navbar() {
       <a href="/">
         <p className="about">About</p>
       </a>
-      <a href="/">
-        <p className="More">More</p>
-      </a>
     </div>
   );
 }
